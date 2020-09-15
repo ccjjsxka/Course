@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/out"
+        android:layout_width="393dp"
+        android:layout_height="158dp"
+        android:layout_marginBottom="104dp"
+        android:text="@string/text2"
+        android:textAlignment="center"
+        android:textColor="#1565C0"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/inp"
+        android:layout_width="408dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="3dp"
+        android:ems="10"
+        android:hint="@string/text1"
+        android:inputType="textPersonName"
+        android:text="@string/text1"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="146dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="200dp"
+        android:text="@string/btn"
+        android:onClick="btn"
+        app:layout_constraintBottom_toTopOf="@+id/out"
+        app:layout_constraintEnd_toEndOf="@+id/inp"
+        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintStart_toStartOf="@+id/inp"
+        app:layout_constraintTop_toBottomOf="@+id/inp"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="OnClick" />
+
+</android.support.constraint.ConstraintLayout>
