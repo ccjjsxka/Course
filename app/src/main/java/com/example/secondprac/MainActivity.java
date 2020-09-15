@@ -20,6 +20,9 @@ public class MainActivity extends AppCompatActivity {
     public void btn(View v){
 //        String str = inp.getText().toString();
 //        out.setText("hi~"+str);
+        String text = inp.getText().toString();
+        float t = Float.parseFloat(text);
+
 
 
     }
